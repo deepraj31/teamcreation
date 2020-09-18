@@ -13,6 +13,18 @@
     width: 100%;
 }
 
+header::before {
+    content: "";
+    background: url(https://images.unsplash.com/photo-1547508005-d3c67cc29606?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=1600) no-repeat fixed;
+    position: absolute;
+    width: 100%;
+    height: 370%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
 
 /* Welcome to Team Creation */
 #welcome-1{
