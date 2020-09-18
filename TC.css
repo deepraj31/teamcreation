@@ -1,0 +1,195 @@
+body {
+    height: 200vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    
+}
+
+/* navigation section */
+
+.navbar{
+    background-color: #064860;
+    display: flex;
+    align-items: center;
+    padding: 18px 0px;
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    width: 100%;
+}
+.navbar::before{
+    background: url('https://images.unsplash.com/photo-1547508005-d3c67cc29606?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=1600') no-repeat;
+    content: "";
+    background-color: #00000059;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+
+.navigation{
+    /* background-color:blue; */
+    /* border: 2px solid yellow; */
+    margin: 12px 0px;
+    display: flex;
+    font-size: 18px;
+}
+#logo{   
+    margin-left: 11px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+.navigation li{
+    
+    list-style: none;
+}
+.navigation li a{
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    padding: 12px 22px;
+    color: white;
+}
+.navigation li a:hover, .navigation li .active{
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: underline;
+    list-style: none;
+    padding: 12px 22px;
+    color: white;
+}
+
+
+
+
+
+
+/* Welcome to Team Creation Section */
+
+
+#welcome-1{
+    /* border: 2px solid pink; */
+    background-color: #0030527a;
+    height: 344px;
+    margin: 0px 230px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 53px black;
+    justify-content: center;
+}
+#welcome-1:hover{
+    /* border: 2px solid pink; */
+    background-color: #0030527a;
+    height: 344px;
+    margin: 0px 230px;
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 63px black;
+    justify-content: center;
+}
+
+#welcome-1 h2{
+    font-size: 3rem;
+    font-family: 'Dancing Script', cursive;
+}
+
+
+#welcome-1 p{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+header::before{
+    content: "";
+    background: url('https://images.unsplash.com/photo-1547508005-d3c67cc29606?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=80&w=1600') no-repeat fixed;
+    position: absolute;
+    width: 100%;
+    height: 234%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+/* Card Section */
+#PID{
+    background-color: #014c6b4f;
+    padding: 22px 0px;
+    font-size: 2rem;
+    margin: 33px 0px;
+    text-align: center;
+}
+#welcome-2{
+  display: flex;
+  width: 100%;
+}
+#welcome-2 .box{
+    width: 26%;
+    margin: 10px auto;
+    box-shadow: 0 0 20px black;
+}
+#welcome-2 .box:hover{
+    width: 26%;
+    margin: 10px auto;
+    box-shadow: 0 0 40px black;
+}
+.box img{
+    display: block;
+    height: 288px;
+    margin: 13px auto;
+}
+
+.box .card-body h4{
+    font-size: 22px;
+    padding-left: 16px;
+    margin: 0px;
+}
+
+.box .card-body p{
+    font-size: 17px;
+    padding-left: 16px;
+}
+#welcome-2 .box .card-body .btn{
+    background-color:#004f6b;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 11px;
+    margin: 10px auto;
+    display: block;
+    cursor: pointer;
+}
+#welcome-2 .box .card-body .btn a{
+    text-decoration: none;
+    color: white;
+}
+#welcome-2 .box .card-body .btn:hover{
+    background-color: #063d61;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 10px auto;
+    display: block;
+    box-shadow: 0px 6px 22px black;
+}
+/* footer */
+footer{
+    
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+    text-align: center;
+    clear: both;
+    position: relative;
+    top: 200px;
+}
+
