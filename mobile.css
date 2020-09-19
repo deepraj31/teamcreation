@@ -21,14 +21,14 @@
     font-family: 'Rajdhani', sans-serif;
     text-decoration: none;
     list-style: none;
-    padding: 12px 12px;
+    padding: 2px 1px;
     color: white;
 }
 .navigation li a:hover, .navigation li .active{
     font-family: 'Rajdhani', sans-serif;
     text-decoration: underline;
     list-style: none;
-    padding: 12px 12px;
+    padding: 2px 2px;
     color: white;
 }
 
@@ -70,8 +70,13 @@ header::before {
     
 }
 #welcome-1 h2 {
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-family: 'Dancing Script', cursive;
+}
+#welcome-1 p {
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
 }
 /* Card */
 #welcome-2{
@@ -80,13 +85,13 @@ header::before {
     flex-direction: column;
 }
 #welcome-2 .box{
-    width: 75%;
+    width: 100%;
     margin: 10px auto;
     box-shadow: 0 0 20px black;
 }
 .box img {
     display: block;
-    height: 205px;
+    height: 190px;
     margin: 13px auto;
 }
 #welcome-2 .box:hover{
