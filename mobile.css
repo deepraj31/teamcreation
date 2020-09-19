@@ -21,14 +21,14 @@
     font-family: 'Rajdhani', sans-serif;
     text-decoration: none;
     list-style: none;
-    padding: 2px 1px;
+    padding: 8px 8px;
     color: white;
 }
 .navigation li a:hover, .navigation li .active{
     font-family: 'Rajdhani', sans-serif;
     text-decoration: underline;
     list-style: none;
-    padding: 2px 2px;
+    padding: 8px 8px;
     color: white;
 }
 
@@ -59,7 +59,7 @@ header::before {
 /* Welcome to Team Creation */
 #welcome-1{
     background-color: #0030527a;
-    height: 344px;
+    height: 220px;
     margin: 0px 10px;
     margin-top: 207px;
     display: flex;
@@ -70,13 +70,13 @@ header::before {
     
 }
 #welcome-1 h2 {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     font-family: 'Dancing Script', cursive;
 }
 #welcome-1 p {
     text-align: center;
     font-family: 'Cinzel', serif;
-    font-size: 13px;
+    font-size: 11px;
 }
 /* Card */
 #welcome-2{
@@ -85,7 +85,7 @@ header::before {
     flex-direction: column;
 }
 #welcome-2 .box{
-    width: 100%;
+    width: 80%;
     margin: 10px auto;
     box-shadow: 0 0 20px black;
 }
@@ -98,4 +98,8 @@ header::before {
     width: 80%;
     margin: 10px auto;
    
+}
+.box .card-body p {
+    font-size: 17px;
+    padding: 16px;
 }
