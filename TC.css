@@ -38,7 +38,7 @@ body {
     /* border: 2px solid yellow; */
     margin: 12px 0px;
     display: flex;
-    font-size: 13px;
+    font-size: 18px;
 }
 #logo{   
     margin-left: 11px;
@@ -54,7 +54,7 @@ body {
     font-family: 'Rajdhani', sans-serif;
     text-decoration: none;
     list-style: none;
-    padding: 12px 12px;
+    padding: 12px 22px;
     color: white;
 }
 .navigation li a:hover, .navigation li .active{
