@@ -23,7 +23,7 @@
     font-family: 'Rajdhani', sans-serif;
     text-decoration: underline;
     list-style: none;
-    padding: 12px 22px;
+    padding: 12px 12px;
     color: white;
 }
 
@@ -78,4 +78,9 @@ header::before {
     width: 75%;
     margin: 10px auto;
     box-shadow: 0 0 20px black;
+}
+.box img {
+    display: block;
+    height: 205px;
+    margin: 13px auto;
 }
