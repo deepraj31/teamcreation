@@ -12,6 +12,23 @@
     top: 0;
     width: 100%;
 }
+.navigation li a {
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    padding: 12px 12px;
+    color: white;
+}
+.navigation {
+    /* background-color: blue; */
+    /* border: 2px solid yellow; */
+    margin: 12px 0px;
+    display: flex;
+    font-size: 18px;
+    position: relative;
+    top: 9px;
+    right: 23px;
+}
 
 header::before {
     content: "";
@@ -39,7 +56,10 @@ header::before {
     justify-content: center;
     
 }
-
+#welcome-1 h2 {
+    font-size: 2rem;
+    font-family: 'Dancing Script', cursive;
+}
 /* Card */
 #welcome-2{
     display: flex;
