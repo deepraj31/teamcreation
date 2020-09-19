@@ -12,6 +12,11 @@
     top: 0;
     width: 100%;
 }
+#logo {
+    margin-left: 0px;
+    height: 76px;
+    border-radius: 30px;
+}
 .navigation li a {
     font-family: 'Rajdhani', sans-serif;
     text-decoration: none;
@@ -83,4 +88,9 @@ header::before {
     display: block;
     height: 205px;
     margin: 13px auto;
+}
+#welcome-2 .box:hover{
+    width: 80%;
+    margin: 10px auto;
+   
 }
