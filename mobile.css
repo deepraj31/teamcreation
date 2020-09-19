@@ -19,12 +19,20 @@
     padding: 12px 12px;
     color: white;
 }
+.navigation li a:hover, .navigation li .active{
+    font-family: 'Rajdhani', sans-serif;
+    text-decoration: underline;
+    list-style: none;
+    padding: 12px 22px;
+    color: white;
+}
+
 .navigation {
     /* background-color: blue; */
     /* border: 2px solid yellow; */
     margin: 12px 0px;
     display: flex;
-    font-size: 14px;
+    font-size: 13px;
     position: relative;
     top: 9px;
     right: 23px;
